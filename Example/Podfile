@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'USStates_Example' do
+  pod 'USStates', :path => '../'
+
+  target 'USStates_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
